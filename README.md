@@ -28,6 +28,23 @@ A modern, minimalist website for VNYL - a digital and live agency specializing i
 
 Simply open `index.html` in a web browser. No build process required.
 
+## Updating the Repository
+
+To keep the repository updated with your latest changes:
+
+### Option 1: Use the update script (Recommended)
+- **Windows**: Double-click `update-repo.bat` or run `.\update-repo.ps1` in PowerShell
+- The script will automatically add, commit, and push your changes
+
+### Option 2: Manual update
+```bash
+git add .
+git commit -m "Your commit message"
+git push origin main
+```
+
+The repository is connected to: [https://github.com/christhecreator56/vnyl.git](https://github.com/christhecreator56/vnyl.git)
+
 ## Contact
 
 - Instagram: [@vnyl.in](https://www.instagram.com/vnyl.in?igsh=cHRqM3ZjdzhyaHhl)
