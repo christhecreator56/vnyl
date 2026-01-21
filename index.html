@@ -266,9 +266,9 @@
 
         <div class="absolute bottom-12 w-full">
             <div class="flex justify-between px-6 text-xs md:text-sm uppercase tracking-widest text-black opacity-70">
-                <span>Frankfurt am Main</span>
+                <span>Chennai</span>
                 <span class="animate-bounce">Scroll for Work</span>
-                <span>Est. 2024</span>
+                <span>Est. 2025</span>
             </div>
         </div>
     </header>
@@ -537,18 +537,9 @@
                 </div>
 
                 <!-- Calendly Scheduler -->
-                <!-- 
-                    To set up Calendly:
-                    1. Sign up/login at calendly.com
-                    2. Create an event type (e.g., "30-minute meeting")
-                    3. Copy your Calendly link (format: https://calendly.com/your-username/event-type)
-                    4. Replace "YOUR_CALENDLY_USERNAME" below with your actual Calendly link
-                    
-                    Example: data-url="https://calendly.com/john-doe/30min"
-                -->
                 <div class="bg-black text-[#FEF9E7] p-8 md:p-10 rounded-[32px] shadow-2xl border border-black border-opacity-30">
                     <div class="calendly-inline-widget" 
-                         data-url="https://calendly.com/YOUR_CALENDLY_USERNAME" 
+                         data-url="https://calendly.com/christopherjesuraj678/30min" 
                          style="min-width:320px;height:700px;">
                     </div>
                 </div>
@@ -559,29 +550,70 @@
     <!-- Footer -->
     <footer id="contact" class="bg-[#FEF9E7] text-black pt-24 pb-12 px-6">
         <div class="container mx-auto">
-            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 border-t border-black border-opacity-20 pt-12">
+            <!-- Three Column Layout -->
+            <div class="grid md:grid-cols-3 gap-12 mb-12">
+                <!-- About Company Column -->
                 <div>
-                    <h2 class="text-4xl font-bold brand-font mb-4 text-black">VNYL.</h2>
-                    <p class="text-black opacity-70 text-sm mb-4">© 2024 VNYL Agency. Digital & Live.</p>
-                    <div class="flex flex-col gap-2 text-sm">
-                        <a href="terms-and-conditions.pdf" target="_blank" class="text-black opacity-70 hover:opacity-100 transition hover-trigger">
-                            Terms and Conditions
-                        </a>
-                        <a href="privacy-policy.pdf" target="_blank" class="text-black opacity-70 hover:opacity-100 transition hover-trigger">
-                            Privacy Policy
-                        </a>
-                    </div>
+                    <h3 class="text-xl font-bold brand-font mb-6 text-black">About Company.</h3>
+                    <p class="text-sm text-black opacity-80 leading-relaxed">
+                        VNYL is a digital marketing company that specializes in helping businesses reach their goals through strategic campaigns, social media optimization, and more. We believe in the power of creativity and collaboration to unlock success for our clients.
+                    </p>
                 </div>
-                <div class="flex flex-col gap-4">
-                    <a href="https://www.instagram.com/vnyl.in?igsh=cHRqM3ZjdzhyaHhl" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 text-black hover:opacity-70 transition hover-trigger">
-                        <i data-lucide="instagram" class="w-6 h-6"></i>
-                        <span>Instagram</span>
-                    </a>
-                    <a href="tel:+919176710079" class="flex items-center gap-3 text-black hover:opacity-70 transition hover-trigger">
-                        <i data-lucide="phone" class="w-6 h-6"></i>
-                        <span>+91 91767 10079</span>
-                    </a>
+
+                <!-- Essentials Column -->
+                <div>
+                    <h3 class="text-xl font-bold brand-font mb-6 text-black">Essentials</h3>
+                    <ul class="flex flex-col gap-3">
+                        <li>
+                            <a href="#booking" class="text-sm text-black opacity-80 hover:opacity-100 transition hover-trigger">
+                                Contact us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="privacy-policy.pdf" target="_blank" class="text-sm text-black opacity-80 hover:opacity-100 transition hover-trigger">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="terms-and-conditions.pdf" target="_blank" class="text-sm text-black opacity-80 hover:opacity-100 transition hover-trigger">
+                                Terms and conditions
+                            </a>
+                        </li>
+                    </ul>
                 </div>
+
+                <!-- Contact Column -->
+                <div>
+                    <h3 class="text-xl font-bold brand-font mb-6 text-black">Contact.</h3>
+                    <ul class="flex flex-col gap-4">
+                        <li class="flex items-center gap-3">
+                            <i data-lucide="map-pin" class="w-5 h-5 text-black opacity-80"></i>
+                            <span class="text-sm text-black opacity-80">Chennai</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i data-lucide="phone" class="w-5 h-5 text-black opacity-80"></i>
+                            <a href="tel:+919176710079" class="text-sm text-black opacity-80 hover:opacity-100 transition hover-trigger">
+                                +91 91767 10079
+                            </a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i data-lucide="instagram" class="w-5 h-5 text-black opacity-80"></i>
+                            <a href="https://www.instagram.com/vnyl.in?igsh=cHRqM3ZjdzhyaHhl" target="_blank" rel="noopener noreferrer" class="text-sm text-black opacity-80 hover:opacity-100 transition hover-trigger">
+                                @vnyl.in
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Separator Line -->
+            <div class="border-t border-black border-opacity-20 pt-8 mb-6"></div>
+
+            <!-- Copyright -->
+            <div class="text-center">
+                <p class="text-sm text-black opacity-70">
+                    Copyright © VNYL 2024 All Right Reserved
+                </p>
             </div>
         </div>
     </footer>
